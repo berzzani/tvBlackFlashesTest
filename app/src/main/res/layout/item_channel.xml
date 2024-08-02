@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150.dp"
+    android:layout_height="84.dp"
+    android:padding="8.dp"
+    >
+
+    <ImageView
+        android:id="@+id/tile_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:contentDescription="@null" />
+
+
+    <TextView
+        android:id="@+id/channel_name"
+        android:layout_width="150.dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        />
+</RelativeLayout>
